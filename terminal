@@ -1,0 +1,7 @@
+npx create-next-app@latest api-playground --typescript --tailwind --eslint
+cd api-playground 
+mkdir -p src/components src/context src/utils src/styles src/pages
+npm install
+npm run dev 
+mv pages/* src/pages/ 2>/dev/null || true 
+mkdir -p src/components src/context src/utils src/styles 
